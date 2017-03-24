@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16088" started-at="2017-03-24T06:23:59Z" finished-at="2017-03-24T06:24:15Z">
+  <suite name="Default suite" duration-ms="15407" started-at="2017-03-24T08:48:20Z" finished-at="2017-03-24T08:48:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16088" started-at="2017-03-24T06:23:59Z" finished-at="2017-03-24T06:24:15Z">
+    <test name="Default test" duration-ms="15407" started-at="2017-03-24T08:48:20Z" finished-at="2017-03-24T08:48:36Z">
       <class name="Docker_Selenium.dock.AppTest">
-        <test-method status="PASS" signature="Test()[pri:0, instance:Docker_Selenium.dock.AppTest@7d9d1a19]" name="Test" duration-ms="16052" started-at="2017-03-24T11:53:59Z" finished-at="2017-03-24T11:54:15Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:Docker_Selenium.dock.AppTest@1794d431]" name="Test" duration-ms="15381" started-at="2017-03-24T14:18:20Z" finished-at="2017-03-24T14:18:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
