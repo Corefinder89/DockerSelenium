@@ -10,6 +10,9 @@ RUN apt-get update
 RUN apt-get install -y default-jdk
 RUN apt-get install -y default-jre
 
+# Install phantomjs
+RUN apt-get install -y phantomjs
+
 # Install maven on ubuntu-selenium image
 RUN apt-get install -y maven
 
