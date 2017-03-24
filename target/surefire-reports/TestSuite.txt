@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.894 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.106 sec <<< FAILURE! - in TestSuite
+Test(Docker_Selenium.dock.AppTest)  Time elapsed: 40.748 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'Soumyajits-MacBook-Pro.local', ip: '192.168.99.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_121'
+Driver info: driver.version: PhantomJSDriver
+	at Docker_Selenium.dock.AppTest.Test(AppTest.java:25)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '2.41.0', revision: '3192d8a6c4449dc285928ba024779344f5423c58', time: '2014-03-27 11:29:39'
+System info: host: 'Soumyajits-MacBook-Pro.local', ip: '192.168.99.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_121'
+Driver info: driver.version: PhantomJSDriver
+	at Docker_Selenium.dock.AppTest.Test(AppTest.java:25)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:35759/status] to be available after 20006 ms
+	at Docker_Selenium.dock.AppTest.Test(AppTest.java:25)
+Caused by: com.google.common.util.concurrent.UncheckedTimeoutException: java.util.concurrent.TimeoutException
+	at Docker_Selenium.dock.AppTest.Test(AppTest.java:25)
+Caused by: java.util.concurrent.TimeoutException
+	at Docker_Selenium.dock.AppTest.Test(AppTest.java:25)
+
