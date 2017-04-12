@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'corefinder/docker-selenium'
+    dockerfile {
+      filename 'Docker/Dockerfile'
     }
     
   }
