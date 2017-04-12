@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('DockerImageBuild') {
       steps {
-        sh 'mvn clean'
+        sh 'mvn --version'
       }
     }
   }
