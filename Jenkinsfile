@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('DockerImageBuild') {
       steps {
-        sh 'docker build -t docker-selenium .'
+        sh 'mvn clean'
       }
     }
   }
