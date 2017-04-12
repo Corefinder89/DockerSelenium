@@ -6,9 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('DockerImageBuild') {
+    stage('Check Status') {
       steps {
-        sh 'mvn --version'
+        sh 'echo $?'
       }
     }
   }
