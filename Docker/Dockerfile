@@ -20,7 +20,7 @@ RUN apt-get install -y maven
 RUN apt-get install -y git
 
 # Get the repository onto the local system
-RUN git clone https://8702726a016fa4f7ffa6a105c1595078c11b8c1c:x-oauth-basic@github.com/SoumyajitBasu1988/DockerSelenium.git
+RUN git clone https://<api-token>:x-oauth-basic@github.com/SoumyajitBasu1988/DockerSelenium.git
 
 # Run the maven command to execute all the tests
 WORKDIR "/DockerSelenium"
